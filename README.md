@@ -1,12 +1,16 @@
 # PSDashSearch
 
-![Build Status](https://build.status.url.here)
-
 ## Description
 
 Invoke a Dash search from PowerShell!
 
-Authored by Tyler Leonhardt
+```powershell
+Invoke-DashSearch -Query System.IO.Pipes
+# or
+dash System.IO.Pipes
+```
+
+![psdashsearch example](https://i.imgur.com/RdApV3E.jpg)
 
 ## Installing
 

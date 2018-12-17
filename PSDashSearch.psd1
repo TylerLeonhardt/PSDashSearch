@@ -15,7 +15,7 @@ RootModule = 'PSDashSearch.psm1'
 ModuleVersion = '0.1.0'
 
 # Supported PSEditions
-CompatiblePSEditions = @('Core', 'Desktop')
+CompatiblePSEditions = @('Core')
 
 # ID used to uniquely identify this module
 GUID = '24e82584-af87-40a4-b007-f941a7ad8bf0'
@@ -95,19 +95,22 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('MacOS')
+        Tags = @('MacOS', 'PSEdition_Core')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/TylerLeonhardt/PSDashSearch/blob/master/LICENSE.md'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/TylerLeonhardt/PSDashSearch'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = '# 0.1.0
+
+Initial Release
+'
 
     } # End of PSData hashtable
 
